@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DynaPuff&family=Permanent+Marker&family=Silkscreen&family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+
+body {
+    background-image: linear-gradient(to right top, #051937, #0d315f, #144b8b, #1767ba, #1284eb);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.calculadora {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+}
+
+table td {
+    display: inline-block;
+}
+
+.btn {
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(15, 109, 104);
+    color: antiquewhite;
+    font-size: 16px;
+    transition: all 200ms ease-in-out
+}
+
+.btn:hover {
+    background-color: rgb(10, 10, 117);
+
+}
+
+.ac {
+
+    background-color: rgba(3, 27, 92, 0.966);
+}
+
+.ac:hover {
+
+    background-color: rgba(6, 6, 136, 0.411);
+}
+
+.especial {
+
+    background-color: rgb(7, 69, 161);
+}
+
+.especial:hover {
+    background-color: rgb(10, 10, 117);
+    ;
+}
+
+.igual {
+    background-color: rgba(3, 27, 92, 0.966);
+
+}
+
+.igual:hover {
+    background-color: rgba(6, 6, 136, 0.411);
+
+}
+
+.result {
+    height: 100px;
+    color: antiquewhite;
+    text-align: right;
+    font-size: 30px;
+    padding: 20px;
+    word-wrap: break-word;
+    border-bottom: 1px solid whitesmoke;
+
+}
